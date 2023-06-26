@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="https://clipart-library.com/images/kcMb7kjni.png">
+        <link href="styles.css" rel="stylesheet">
+        <title>Cool Effects</title>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">More about Programming</a></li>
+                    <li><a href="contact.html">Contact me!</a></li>
+                    <li>Sandbox/Playground</li>
+                </ul>
+            </nav>
+        </header>
+    </head>
+    <body>
+        <h1>Cool effects... coming your way!</h1>
+
+        <section>
+        <p>Click the image below.</p>
+        <a href="#_" class="lightbox" id="boxBarnowl">
+            <h3>Hi there!</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo48Yx6J4_4sTymmCUyYYjja0sy4qXkHVYMRG1ZQPsElK3tNNM3ACzI7JOfm1wFWsx35o&usqp=CAU"
+            alt="Picture of a barred owl" />
+            <p>Owly the barred owl saying hi.</p>
+        </a>
+
+        <a href="#boxBarnowl">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOdDmCcazhUgt8q31vpzksOt2ZQokkBM0xTxbspMRpw&s" class="mediumPics"></a>
+
+</section>
+<hr>
+
+<section>
+    <p>Change every instance of the word "dog" to the word "cat"</p>
+    <p id="sidenote">Results may be inaccurate :&#41;</p>
+    <button type="button" onclick="catsforever()" class="stylicbutton">Change to cats!</button>
+    <button type="button" onclick="dogsforever()" class="stylicbutton">Change to dogs!</button>
+    <button type="button" onclick="pegasidesforever()" class="stylicbutton">Change to pegasides!</button>
+    <button type="button" onclick="swansforever()" class="stylicbutton">Change to swans!</button>
+
+
+<p class="centerlin accesstext"> A <span class="animal">dog</span> is a beautiful creature
+    on the earth that consists of four legs and sharp teeth.
+    The teeth of a <span class="animal">dog</span> are tough and bright,
+    which helps in biting the flesh of the body.
+    <br>
+    <span class="Animals">Dogs</span> have an intelligent nature,
+    which is why they help officers in catching thieves and strangers.
+    They consist of a very loud barking nature.
+    <br>
+    A <span class="animal">dog</span> is a very loyal creature
+    that always keeps the owner's life safe and protected.
+    A <span class="animal">dog</span> needs an important exercise
+    for spending a healthy lifestyle.
+    They have excellent smelling capability, and also,
+    they can hear the sounds from a very far distance.
+    A <span class="animal">dog</span> can swim in the water, and they can also jump from long walls.
+    A <span class="animal">dog</span> can eat <span class="diet">flesh, meat, rice, bread,
+    and fish</span> in every meal.
+    They need to have <span class="meals">at least six</span> meals a day.
+    <br>
+    A <span class="animal">dog</span> has an excellent capability of faithfulness and playfulness.
+    They love to spend their quality time with their owners and family.
+    They can also keep their owners away from depression and anxiety issues.
+    <span class="Animals">Dogs</span> can also improve the cardiovascular health of humans by exercising.
+    They are the best companions of adults and children.
+    <span class="Animals">Dogs</span> can play the best role of security men
+    because they can notice a single move of the stranger.
+    <br>
+    <span class="Animals">Dogs</span> love their owners without caring about their richness and poorness.
+    A <span class="animal">dog</span> can live for twelve or fifteen years,
+    depending on the healthy environment.
+    <span class="Animals">Dogs</span> come under the category of mammal animals
+    because they give birth to their babies.</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+function catsforever() {
+    $(".animal").text("cat");
+    $(".Animals").text("Cats");
+    $(".diet").text("fish, poultry, beef, rice, wheat flour, oatmeal, blueberries, and melons");
+    $(".meals").text("one to two");
+}
+
+function dogsforever() {
+    $(".animal").text("dog");
+    $(".Animals").text("Dogs");
+    $(".diet").text("meat, cheese, fruit, vegetables, and peanut butter");
+    $(".meals").text("two");
+}
+
+function pegasidesforever (){
+    $(".animal").text("pegasus");
+    $(".Animals").text("Pegasides");
+    $(".diet").text("vegetation, fruits, and apples");
+    $(".meals").text("three");
+}
+
+function swansforever (){
+    $(".animal").text("swan");
+    $(".Animals").text("Swans");
+    $(".diet").text("aquatic vegetation, fish, frogs, and worms");
+    $(".meals").text("a lot of");
+}
+</script>
+
+</section>
+
+<hr>
+
+<section class="backgroundre">
+    <p class="whitete">Change the background of this section</p>
+    <button type="button" onclick="changebackground()">Click me!</button>
+    <script>
+        function changebackground (){
+            $(".whitete").css("color", "white");
+            $(".backgroundre").css("background-image", "url(https://img.freepik.com/premium-photo/blur-glow-overlay-light-flare-optical-radiance-filter-sunlight-reflection-defocused-blue-orange-glare-soft-texture-abstract-background_279525-22536.jpg)");
+        }
+    </script>
+</section>
+    </body>
+</html>

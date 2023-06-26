@@ -1,0 +1,171 @@
+/*Universal Styling*/
+h1 {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #041122;
+}
+
+h2 {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #041122;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+h3 a {
+    text-decoration: none;
+}
+
+p {
+    padding: 10px;
+}
+
+body {
+    background-color: #fdf8f5;
+}
+
+img {
+    padding: 10px;
+}
+
+html {
+    margin: 10px;
+}
+/*Special Effects*/
+#highlight {
+    color: white;
+    display: inline;
+}
+
+.centerlin {
+    text-align: center;
+}
+
+.accesstext {
+    padding: 100px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/*Cool effects*/
+.lightbox{
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.lightbox:target {
+    visibility: visible;
+}
+
+.animal {
+    font-weight: bold;
+}
+
+.Animals {
+    font-weight: bold;
+}
+
+.stylicbutton {
+    margin: auto;
+    text-align: center;
+    border-style: none;
+    box-shadow: 10px 10px lightblue;
+    background-color: coral;
+}
+
+.shadowing {
+    box-shadow: 10px 10px lightblue;
+  }
+
+/*Styling cards*/
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .row {
+    margin: 20px;
+  }
+
+/*Navigation menu*/
+nav ul {
+    padding: 10px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+nav ul li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #123C69;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #112f33;
+}
+
+@media all and (min-width: 1000px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
