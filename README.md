@@ -53,6 +53,14 @@ p {
 [...]
 ```
 
+### `template.html`
+
+This page is not in the nav menu, so most users will not view this page. I use this as a template for all my other pages.
+
+```
+<html>
+[...]
+</html>
 
 
 # Citations
