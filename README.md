@@ -72,3 +72,20 @@ This page is not in the nav menu, so most users will not view this page. I use t
 - [Harvard CS50x tutorials](cs50.harvard.edu)
 - some color design websites
 - and a couple more that I can't remember!
+
+# About me...
+- 👋 Hi, I’m @thelovelightliveventure!
+- 👀 I’m interested in music, tech, and language.
+- 🌱 I’m currently learning C, HTML, JS, Python, CSS, SQL, C#, Markdown, and Swift!
+- 💞️ I’m looking to collaborate on a fun, useful project -- topic TBD!
+- 📫 Contact me: thelovelightliveventure@gmail.com, or one of the below avenues: 
+
+
+<a href="youtube.com/@thelovelightliveventure">@thelovelightliveventure</a> on YouTube
+
+
+@thelovelightliveventure on Goodreads 
+
+
+@thelovelightliveventure on Pinterest
+
